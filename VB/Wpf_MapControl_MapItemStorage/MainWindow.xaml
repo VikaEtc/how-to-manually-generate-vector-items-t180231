@@ -1,7 +1,8 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" x:Class="Wpf_MapControl_MapItemStorage.MainWindow"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" 
+        x:Class="Wpf_MapControl_MapItemStorage.MainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
 
@@ -16,11 +17,11 @@
                 <dxm:VectorLayer.Data>
                     <dxm:MapItemStorage>
                         <dxm:MapItemStorage.Items>
-                            <dxm:MapDot Location="51.30, 0.07" Size="20" Fill="Wheat"/>
-                            <dxm:MapDot Location="52.31, 13.23" Size="20" Fill="Gold"/>
-                            <dxm:MapDot Location="48.51, 2.21" Size="20" Fill="CadetBlue"/>
-                            <dxm:MapDot Location="41.54, 12.3" Size="20" Fill="Red"/>
-                            <dxm:MapDot Location="40.23, -3.43" Size="20" Fill="Green"/>
+                            <dxm:MapPushpin Location="51.30, 0.07"/>
+                            <dxm:MapPushpin Location="52.31, 13.23"/>
+                            <dxm:MapPushpin Location="48.51, 2.21"/>
+                            <dxm:MapPushpin Location="41.54, 12.3"/>
+                            <dxm:MapPushpin Location="40.23, -3.43"/>
                         </dxm:MapItemStorage.Items>
                     </dxm:MapItemStorage>
                 </dxm:VectorLayer.Data>
